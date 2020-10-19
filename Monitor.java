@@ -52,7 +52,7 @@ public class Monitor {
             systemPerformance.put(perf.name, perf);
 
             this.maxRAM = 0;
-            this.minDiskSpace = 999999999;
+            this.minDiskSpace = Float.MAX_VALUE;
 
             float totalCpu = 0;
             float n = 0;
